@@ -1,0 +1,176 @@
+[14-Jun-2025 00:29:53 UTC] [2025-06-14 00:29:53] === INICIO DE LOGIN ===
+[14-Jun-2025 00:29:53 UTC] [2025-06-14 00:29:53] Usuario ingresado - Data: perdomo
+[14-Jun-2025 00:29:53 UTC] [2025-06-14 00:29:53] IP del cliente - Data: 127.0.0.1
+[14-Jun-2025 00:29:53 UTC] [2025-06-14 00:29:53] Longitud de contraseña - Data: 8
+[14-Jun-2025 00:29:53 UTC] [2025-06-14 00:29:53] Preparando consulta SQL
+[14-Jun-2025 00:29:53 UTC] PHP Fatal error:  Uncaught mysqli_sql_exception: Unknown column 'created_at' in 'field list' in C:\laragon\www\HuinAgro\login.php:52
+Stack trace:
+#0 C:\laragon\www\HuinAgro\login.php(52): mysqli->prepare('SELECT id_user,...')
+#1 {main}
+  thrown in C:\laragon\www\HuinAgro\login.php on line 52
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] === INICIO DE LOGIN ===
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Usuario ingresado - Data: perdomo
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] IP del cliente - Data: 127.0.0.1
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Longitud de contraseña - Data: 8
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Preparando consulta SQL
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Consulta preparada exitosamente
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Consulta ejecutada exitosamente
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Número de resultados encontrados - Data: 1
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Usuario encontrado en BD - Data: Array
+(
+    [id] => 5
+    [username] => perdomo
+    [email] => ivanperdomo164@gmail.com
+    [role] => coordinator
+)
+
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Verificando contraseña
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Hash almacenado (primeros 30 chars) - Data: $2y$10$ohSXsW4itlTJKvcwWT5ILes
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Resultado verificación contraseña - Data: VÁLIDA
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Contraseña correcta, verificando rol
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Roles permitidos - Data: Array
+(
+    [0] => admin
+    [1] => coordinator
+)
+
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Rol del usuario - Data: coordinator
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Rol válido, iniciando sesión
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Sesión anterior limpiada
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Variables de sesión configuradas - Data: Array
+(
+    [user_id] => 5
+    [username] => perdomo
+    [role] => coordinator
+    [loggedin] => 1
+)
+
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] ID de sesión regenerado
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Archivo de destino determinado - Data: dashboard_coordinator.php
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Ruta completa del archivo - Data: C:\laragon\www\HuinAgro/dashboard_coordinator.php
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] ¿Archivo existe? - Data: SÍ
+[14-Jun-2025 00:33:14 UTC] [2025-06-14 00:33:14] Archivo de destino existe, redirigiendo
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] === INICIO DE LOGIN ===
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Usuario ingresado - Data: perdomo
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] IP del cliente - Data: 127.0.0.1
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Longitud de contraseña - Data: 8
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Preparando consulta SQL
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Consulta preparada exitosamente
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Consulta ejecutada exitosamente
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Número de resultados encontrados - Data: 1
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Usuario encontrado en BD - Data: Array
+(
+    [id] => 5
+    [username] => perdomo
+    [email] => ivanperdomo164@gmail.com
+    [role] => coordinator
+)
+
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Verificando contraseña
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Hash almacenado (primeros 30 chars) - Data: $2y$10$ohSXsW4itlTJKvcwWT5ILes
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Resultado verificación contraseña - Data: VÁLIDA
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Contraseña correcta, verificando rol
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Roles permitidos - Data: Array
+(
+    [0] => admin
+    [1] => coordinator
+)
+
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Rol del usuario - Data: coordinator
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Rol válido, iniciando sesión
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Sesión anterior limpiada
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Variables de sesión configuradas - Data: Array
+(
+    [user_id] => 5
+    [username] => perdomo
+    [role] => coordinator
+    [loggedin] => 1
+)
+
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] ID de sesión regenerado
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Archivo de destino determinado - Data: dashboard_coordinator.php
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Ruta completa del archivo - Data: C:\laragon\www\HuinAgro/dashboard_coordinator.php
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] ¿Archivo existe? - Data: SÍ
+[14-Jun-2025 00:33:27 UTC] [2025-06-14 00:33:27] Archivo de destino existe, redirigiendo
+[14-Jun-2025 00:33:28 UTC] [2025-06-14 00:33:28] === INICIO DE LOGIN ===
+[14-Jun-2025 00:33:28 UTC] [2025-06-14 00:33:28] Usuario ingresado - Data: 
+[14-Jun-2025 00:33:28 UTC] [2025-06-14 00:33:28] IP del cliente - Data: 127.0.0.1
+[14-Jun-2025 00:33:28 UTC] [2025-06-14 00:33:28] Longitud de contraseña - Data: 0
+[14-Jun-2025 00:33:28 UTC] [2025-06-14 00:33:28] ERROR: Campos vacíos
+[14-Jun-2025 00:33:28 UTC] [2025-06-14 00:33:28] === FIN DE LOGIN ===
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] === INICIO DE LOGIN ===
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Usuario ingresado - Data: perdomo
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] IP del cliente - Data: 127.0.0.1
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Longitud de contraseña - Data: 8
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Preparando consulta SQL
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Consulta preparada exitosamente
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Consulta ejecutada exitosamente
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Usuario encontrado en BD - Data: Array
+(
+    [id] => 5
+    [username] => perdomo
+    [email] => ivanperdomo164@gmail.com
+    [role] => coordinator
+)
+
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Verificando contraseña
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Resultado verificación contraseña - Data: VÁLIDA
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Contraseña correcta, verificando rol
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Roles permitidos - Data: Array
+(
+    [0] => admin
+    [1] => coordinator
+)
+
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Rol del usuario - Data: coordinator
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Rol válido, iniciando sesión
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Sesión anterior limpiada
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Variables de sesión configuradas - Data: Array
+(
+    [user_id] => 5
+    [username] => perdomo
+    [role] => coordinator
+    [loggedin] => 1
+)
+
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] ID de sesión regenerado
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Redirigiendo a - Data: dashboard_coordinator.php
+[14-Jun-2025 00:34:11 UTC] [2025-06-14 00:34:11] Archivo de destino existe, redirigiendo
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] === INICIO DE LOGIN ===
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Usuario ingresado - Data: perdomo
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] IP del cliente - Data: 127.0.0.1
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Longitud de contraseña - Data: 8
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Preparando consulta SQL
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Consulta preparada exitosamente
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Consulta ejecutada exitosamente
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Usuario encontrado en BD - Data: Array
+(
+    [id] => 5
+    [username] => perdomo
+    [email] => ivanperdomo164@gmail.com
+    [role] => coordinator
+)
+
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Verificando contraseña
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Resultado verificación contraseña - Data: VÁLIDA
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Contraseña correcta, verificando rol
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Roles permitidos - Data: Array
+(
+    [0] => admin
+    [1] => coordinator
+)
+
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Rol del usuario - Data: coordinator
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Rol válido, iniciando sesión
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Sesión anterior limpiada
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Variables de sesión configuradas - Data: Array
+(
+    [user_id] => 5
+    [username] => perdomo
+    [role] => coordinator
+    [loggedin] => 1
+)
+
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] ID de sesión regenerado
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Redirigiendo a - Data: dashboard_coordinator.php
+[14-Jun-2025 00:39:13 UTC] [2025-06-14 00:39:13] Archivo de destino existe, redirigiendo
