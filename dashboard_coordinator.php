@@ -53,7 +53,7 @@ $stmt->close();
                 <i class="bi bi-basket-fill fs-5"></i> <span>Registrar venta</span>
             </a>
             <a href="user_history.php" class="nav-link text-white fw-semibold d-flex align-items-center gap-2 mb-2">
-                <i class="bi bi-clock-history fs-5"></i> <span>Historial</span>
+                <i class="bi bi-clock-history fs-5"></i> <span>Historial de ventas</span>
             </a>
             <a href="reports.php" class="nav-link text-white fw-semibold d-flex align-items-center gap-2 mb-2">
                 <i class="bi bi-file-earmark-bar-graph-fill fs-5"></i> <span>Historial de descargas</span>
